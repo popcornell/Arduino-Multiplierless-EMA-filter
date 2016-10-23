@@ -44,7 +44,7 @@ For those who don't have MATLAB i've included in the image below the plot:
 
 Moreover the included example .ino file can be used as a very simple test to find out wether the filter functions properly. 
 In the main loop delay one can put the corresponding **sampling interval for the actual use case**, then the filtered 
-and unfiltered signals can be seen via Arduino IDE serial plotter.  
+and unfiltered signals can be seen via Arduino IDE serial plotter:  
 
-
+!['o' output](http://i.imgur.com/bZOg1bz.png)
 
