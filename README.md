@@ -12,14 +12,16 @@ can be rewritten as:
 
 **y[n]= y[n-1]+(alpha)(x[n]-y[n-1])**
 
-Now if **alpha** which could be thought of sort of a __"smoothing factor"__ is chosen to be a factor of a power of two: 
-
-**alpha = 1/(2^M)**
-
 Looking more closely at the EMA equation it is clear that the lower the __"smoothing factor"__ and thus the cutoff frequency, 
 the less the current output y[n] will be influenced by the current input x[n] but rather will rely more and more, as alpha decreases, 
 on the previous output y[n-1]. 
 So  the less the alpha, the more the output signal will be able to "resist" changes, hence the name __smoothing factor__. 
+
+
+Now if **alpha** which could be thought of sort of a __"smoothing factor"__ is chosen to be a factor of a power of two: 
+
+**alpha = 1/(2^M)**
+
 
 If this choice is made the filter can be implemented using the right bitshift operator: 
 
