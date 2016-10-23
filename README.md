@@ -28,6 +28,7 @@ If this choice is made the filter can be implemented using the right bitshift op
 **y[n] += (x[n]-y[n-1]) >> M** 
 
 This potentially allows for  a significant  **saving  in  cpu  cycles** especially for microcontroller such as Arduino. 
+This algorithm is way more efficient than the standard Arduino Smoothing Algorithm. 
 This saving in cpu cycles is obtained at the expense of flexibility, in fact only certain value for alpha are allowed. 
 
 Additional information on Multiplierless EMA filters is available at https://www.dsprelated.com/showarticle/72.php. 
