@@ -1,5 +1,5 @@
 # Arduino-Multiplierless-EMA-filter
-
+###This repository contains a very simple class that implements a __Multiplierless__ first-order IIR/Exponential Mobile Average filter.
 
 
 Basically the input-output relationship of an EMA filter which is: 
