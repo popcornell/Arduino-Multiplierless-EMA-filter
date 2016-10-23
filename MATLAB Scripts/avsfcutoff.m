@@ -6,7 +6,6 @@ alpha= 0.5:0.1:0.8 ;
 w= -pi:0.001:pi; 
 color = 'brgc';
 
-%H=zeros(length(alpha),length(w) ) ; 
 
 xlim([0 0.5]); 
 ylim([0 1.05]) ; 
